@@ -30,3 +30,16 @@ class Anagram:
 
 listen = Anagram("listen")
 listen.match(["enlists", "google", "inlets", "banana"])
+
+# #function to check if two strings are anagram
+
+# def check(s1, s2):
+#     #sorted strings are checked
+#     if(sorted(s1) == sorted(s2)):
+#         print("the strings are anagrams.")
+#     else:
+#         print("the strings aren't anagrams.")
+
+# s1 = input("enter a word: ")
+# s2 = input("enter a word: ")
+# check(s1, s2)
